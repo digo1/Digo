@@ -1,5 +1,5 @@
 .hero {
-  background: url("../img/pic.jpg") no-repeat;
+  background: url("../img/offe.jpg") no-repeat;
   /*background-size: 100% 100%;
   height: 200px;*/
   background-size:cover;
@@ -47,6 +47,14 @@ h2.parallax:after{
 .nav>li>a:hover,
 .nav>li>a:focus{
 	background-color: transparent;
+}
+@media(max-width: 767px){
+	.navar-default .navbar-collapse{
+		border: none;
+	}
+	.navbar-default .navbar-toggle .icon-bar{
+		background-color: #ffffff;
+	}
 }
 
 section#contact{
@@ -157,10 +165,10 @@ animation3{
 
 }
 .animation2{
-	animation-delay:.3s;
-	-webkit-animation-delay:.3s;
+	animation-delay:.4s;
+	-webkit-animation-delay:.4s;
 }
 .animation3{
-	animation-delay:.6s;
-	-webkit-animation-delay:.6s;
+	animation-delay:.8s;
+	-webkit-animation-delay:.8s;
 }
