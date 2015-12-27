@@ -1,5 +1,5 @@
 .hero {
-  background: url("../img/offe.jpg") no-repeat;
+  background: url("../img/lap11.jpg") no-repeat;
   /*background-size: 100% 100%;
   height: 200px;*/
   background-size:cover;
@@ -48,6 +48,11 @@ h2.parallax:after{
 .nav>li>a:focus{
 	background-color: transparent;
 }
+
+.nav > li.active {
+	background-color: #08192D;
+	transition: 1s all ease;
+	}
 @media(max-width: 767px){
 	.navar-default .navbar-collapse{
 		border: none;

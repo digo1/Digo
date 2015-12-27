@@ -15,7 +15,7 @@
 	<script src="js/modernizr-2.8.3.min.js"></script>
 
 </head>
-<body>
+<body data-spy="scroll" data-target=".navbar">
 	<header>
 	<nav class="navbar navbar-default navbar-fixed-top">
 	<div class="container">
@@ -29,9 +29,10 @@
 			</button>
 		</div>
 		<div class="navbar-collapse collapse">
-			<ul class="nav nav-justified">
+			<ul class="nav navbar-nav navbar-right">
 				<li><a href="#">Home</a></li>
-				<li><a data-scroll href="#about">About</a></li>
+				<li><a data-scroll href="#about">Services</a></li>
+				<li><a data-scroll href="#services">About</a></li>
 				<li><a data-scroll href="#contact">Contact Us</a></li>
 			</ul>
 		
@@ -46,7 +47,7 @@
 		
 	</div>
 	<section id="about" class="about">
-	<h2 class="text-center text-uppercase">About</h2>
+	<h2 class="text-center text-uppercase">Services</h2>
 		<div class="container">
 		<div class="row">
 		<div class="col-sm-4">
